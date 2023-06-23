@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+    
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             
+             x:Class="Ejercicio_1.MainPage">
+
+    <!-- Utilizamos un StackLayout y cremos 3 cuadrados simples de color especificado con la propiedad BoxView y la orientación con la propiedad HorizontalOpsion Center -->
+    
+    <StackLayout>
+
+            <BoxView Color="Red" 
+                     
+            HorizontalOptions="Center" />
+        
+            <BoxView Color="Green" 
+ 
+            HorizontalOptions="Center" />
+        
+            <BoxView Color="Blue" 
+                     
+            HorizontalOptions="Center" />
+
+    </StackLayout>
+ 
+</ContentPage>
